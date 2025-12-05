@@ -751,8 +751,10 @@ Turtle motion
    the turtle; *extent* -- an angle -- determines which part of the circle
    is drawn.  If *extent* is not given, draw the entire circle.  If *extent*
    is not a full circle, one endpoint of the arc is the current pen
-   position.  Draw the arc in counterclockwise direction if *radius* and *extend* have the same sign, otherwise in clockwise direction.  Finally the direction of the
-   turtle is changed by the amount of *extent*.
+   position.  Draw the arc in counterclockwise direction if *radius* and
+   *extend* have the same sign, otherwise in clockwise direction.
+   Finally the direction of the turtle is changed by the amount of *extent*.
+   if *extend* is negative, the turtle moves backwards.
 
    As the circle is approximated by an inscribed regular polygon, *steps*
    determines the number of steps to use.  If not given, it will be
